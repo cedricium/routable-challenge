@@ -19,7 +19,14 @@
   color: #222222;
 }
 
+@media (max-width: 600px) {
+  .page-detail section .page-title {
+    margin-left: 2rem;
+  }
+}
+
 .page-detail section .page-body {
+  margin-bottom: 4rem;
   height: 100%;
   padding: 2rem;
   background: #FFFFFF;
