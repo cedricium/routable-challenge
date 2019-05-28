@@ -1,0 +1,74 @@
+.page-detail {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-detail section {
+  margin: 4rem 0 0 0;
+  width: 100%;
+  max-width: 109.2rem;
+}
+
+.page-detail section .page-title {
+  margin: 0 0 3rem;
+  font-size: 3.6rem;
+  font-weight: 600;
+  color: #222222;
+}
+
+.page-detail section .page-body {
+  height: 100%;
+  padding: 2rem;
+  background: #FFFFFF;
+  border: solid 1px #E5E5E5;
+}
+
+.page-detail section .page-body .invoice {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.page-detail section .page-body .invoice .invoice-title {
+  margin: 0 0 4rem;
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+
+.page-detail section .page-body .invoice .invoice-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.page-detail section .page-body .invoice .invoice-section .column {
+  width: 100%;
+  max-width: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.page-detail section .page-body .invoice .invoice-section address {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+
+.page-detail section .page-body .invoice .invoice-section address .company {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.page-detail section .page-body .invoice .invoice-divider {
+  margin: 1rem 0 3rem;
+  width: 100%;
+  border: solid 1px #E5E5E5;
+}

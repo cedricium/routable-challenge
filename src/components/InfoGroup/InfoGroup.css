@@ -1,0 +1,15 @@
+.invoice-info {
+  margin: 0 0 2rem;
+}
+
+.invoice-info .info-label {
+  margin: 0 0 0.75rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #555555;
+}
+
+.invoice-info .info-value {
+  font-size: 2rem;
+  font-weight: 500;
+}
