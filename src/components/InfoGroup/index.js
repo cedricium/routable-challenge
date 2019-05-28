@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import './InfoGroup.css'
 
 const InfoGroup = (props) => {
@@ -12,6 +13,18 @@ const InfoGroup = (props) => {
       </div>
     </div>
   )
+}
+
+InfoGroup.propTypes = {
+  label: PropTypes.string.isRequired,
+  value: function(props, propName, componentName) {
+    if (!props.value && !props.children) {
+      return new Error(
+        'The prop `' + propName + '` is required in ' + componentName +
+        ' unless prop `children` is otherwise supplied. Validation failed.'
+      )
+    }
+  },
 }
 
 export default InfoGroup

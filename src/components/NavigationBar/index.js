@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import './NavigationBar.css'
 import googleLogo from '../../assets/google-logo.png'
 
@@ -28,6 +29,11 @@ const NavigationBar = () => {
       </div>
     </nav>
   )
+}
+
+Logo.propTypes = {
+  src: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
 }
 
 export default NavigationBar

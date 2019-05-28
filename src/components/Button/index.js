@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import './Button.css'
 
 const PrimaryButton = (props) => {
@@ -7,6 +8,10 @@ const PrimaryButton = (props) => {
       {props.value}
     </button>
   )
+}
+
+PrimaryButton.propTypes = {
+  value: PropTypes.node.isRequired,
 }
 
 export default PrimaryButton
